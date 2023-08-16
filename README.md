@@ -21,7 +21,7 @@ The exchange rate between XRP and CLPC is the limit set on a trustline establish
 ## How to test
 - Open [Hooks Builder](https://hooks-builder.xrpl.org/)
 - Make sure Hooks Builder has at least 5 accounts: Alice, Bob, Carol, Carlos, and Charlie
-- run [decode.js](./decode.js], twice, to convert Carlos and Charlie's accounts to binary form; save the values somewhere
+- run [decode.js](./decode.js), twice, to convert Carlos and Charlie's accounts to binary form; save the values somewhere
 - if Carlos's account number is numerically higher than Charlie, switch the accounts (either re-import them or just switch their names in the following text)
 - set up a trust limit for the CLPC user, by running trust-user.js; the script requires 2 parameters:
 	1. the user account (Alice) sends the TrustSet transaction so that the script requires its private key
